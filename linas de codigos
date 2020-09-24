@@ -1,0 +1,102 @@
+namespace Quis_História_dos_Jogos
+{
+    class Program
+    {
+        public static int Carro = 5; 
+
+        static void Main()
+        {
+            Console.WriteLine("Quis sobre a História dos jogos, Você deve responder a alternativa completa, agora vamos começar.");
+            Console.WriteLine("Em que ano foi lançado o jogo The Legend of Zelda: Majora's Mask.");
+            Console.WriteLine("A) 1990");
+            Console.WriteLine("B) 2002");
+            Console.WriteLine("C) 2000");
+            Console.WriteLine("D) 1999");
+            Console.Write("R:");
+            String resp = Console.ReadLine();
+            if (resp == "C) 2000")
+            {
+                Console.WriteLine("Resposta Certa!!");
+            }
+            else
+            {
+                Console.WriteLine("Feels bad man, você errou ;-;");
+                Carro = Carro - 1;
+            }
+            Console.ReadLine();
+            Console.WriteLine("Quando foram lançado, respectivamente, os jogos: Magic: The Gathering, Yu-gi-ho e Pokémon Trading Card Game.");
+            Console.WriteLine("A) 1993, 1996, 1996.");
+            Console.WriteLine("B) 2002, 2015, 2020.");
+            Console.WriteLine("C) 2010, 1990, 2020.");
+            Console.WriteLine("D) 1989, 2000, 2000.");
+            Console.Write("R:");
+            String Rasp = Console.ReadLine();
+            if (Rasp == "A) 1993, 1996, 1996")
+            {
+                Console.WriteLine("Resposta Certa!!");
+            }
+            else
+            {
+                Console.WriteLine("Feels bad man, você errou ;-;");
+                Carro = Carro - 1;
+            }
+            Console.ReadLine();
+            Console.WriteLine("Quantos jogos tem a série Farming Simuleitor.");
+            Console.WriteLine("A) 12");
+            Console.WriteLine("B) 30");
+            Console.WriteLine("C) 10");
+            Console.WriteLine("D) 20");
+            Console.Write("R:");
+            String Rosp = Console.ReadLine();
+            if (Rosp == "A) 12")
+            {
+                Console.WriteLine("Resposta Certa!!");
+            }
+            else
+            {
+                Console.WriteLine("Feels bad man, você errou ;-;");
+                Carro = Carro - 1;
+            }
+            Console.ReadLine();
+            Console.WriteLine("Que genero de jogo consiste a série Harvest Moon.");
+            Console.WriteLine("A) Ação");
+            Console.WriteLine("B) Simulador de Vida");
+            Console.WriteLine("C) RPG");
+            Console.WriteLine("D) Casual");
+            Console.Write("R:");
+            String Risp = Console.ReadLine();
+            if (Risp == "B) Simulador de Vida")
+            {
+                Console.WriteLine("Resposta Certa!!");
+            }
+            else
+            {
+                Console.WriteLine("Feels bad man, você errou ;-;");
+                Carro = Carro - 1;
+            }
+            Console.ReadLine();
+            Console.WriteLine("Qual dos jogos a seguir NÂO se encaixa no termo J-RPGs");
+            Console.WriteLine("A) Chrono Trigger");
+            Console.WriteLine("B) Final Fantasy");
+            Console.WriteLine("C) The Witcher");
+            Console.WriteLine("D) Pokemon");
+            Console.Write("R:");
+            String Rusp = Console.ReadLine();
+            if (Rusp == "C) The Witcher")
+            {
+                Console.WriteLine("Resposta Certa!!");
+            }
+            else
+            {
+                Console.WriteLine("Feels bad man, você errou ;-;");
+                Carro = Carro - 1;
+            }
+            Console.ReadLine();
+            Console.WriteLine("Acertos: " + Carro);
+            Carro = 5 - Carro;
+            Console.WriteLine("Erros: " + Carro);
+
+            Console.WriteLine("Obrigado por jogar, e volte sempre.");
+        }
+    }
+}
